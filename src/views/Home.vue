@@ -1,14 +1,16 @@
 <template>
   <div class="home">
+    <br />
+    <br />
     <div class="columns is-mobile is-centered">
-      <div class="column is-3">
+      <div class="column is-3-mobile is-1-desktop is-1-tablet">
         <figure class="image is-128x128">
           <img alt="Vue logo" src="../assets/logo.png" />
         </figure>
       </div>
     </div>
     <div class="columns  is-mobile is-centered">
-      <div class="column is-11">
+      <div class="column is-11 has-text-centered">
         <p>
           La app Stickers & Gifs está provista de muchos elementos, esta app
           está desarrollada en
@@ -27,6 +29,20 @@
           >.
         </p>
       </div>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <div class="has-text-centered">
+      <p>Author, Jean Cardozo</p>
+      <br />
+      <a
+        href="https://github.com/JeanPCardozo"
+        class="button is-dark"
+        target="_blank"
+        rel="noopener noreferrer"
+        >GitHub</a
+      >
     </div>
   </div>
 </template>
