@@ -1,6 +1,6 @@
 <template>
   <div id="allGifs">
-    <p class="is-size-2 ">Gifs</p>
+    <p class="is-size-2 has-text-centered">Gifs</p>
     <hr />
     <div class="control columns is-mobile is-multiline is-centered">
       <div class="column is-9-desktop is-6-tablet is-8-mobile">

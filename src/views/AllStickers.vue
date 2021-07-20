@@ -1,6 +1,6 @@
 <template>
   <div id="allGifs">
-    <p class="is-size-2 ">Stickers</p>
+    <p class="is-size-2 has-text-centered">Stickers</p>
     <hr />
     <div class="field">
       <div class="control columns is-mobile is-multiline is-centered">
