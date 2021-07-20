@@ -2,14 +2,14 @@
   <div>
     <nav class="navbar is-dark">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <router-link class="navbar-item" to="/">
           <img
             src="https://bulma.io/images/bulma-logo.png"
             alt="Bulma: a modern CSS framework based on Flexbox"
             width="112"
             height="28"
           />
-        </a>
+        </router-link>
         <div
           class="navbar-burger"
           :class="isActive ? 'is-active' : ''"

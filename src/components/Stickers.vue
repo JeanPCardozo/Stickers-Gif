@@ -16,9 +16,12 @@
           <div class="media-content">
             <p class="title is-4">{{ user.username }}</p>
             <p class="subtitle is-6">
-              <a :href="user.website_url" target="_blank">{{
-                user.website_url
-              }}</a>
+              <a
+                :href="user.website_url"
+                target="_blank"
+                rel="noopener noreferrer"
+                >{{ user.website_url }}</a
+              >
             </p>
           </div>
         </div>
