@@ -4,11 +4,12 @@
       <div class="navbar-brand">
         <router-link class="navbar-item" to="/">
           <img
-            src="https://bulma.io/images/bulma-logo.png"
+            src="../assets/logo.png"
             alt="Bulma: a modern CSS framework based on Flexbox"
-            width="112"
-            height="28"
+            width="30"
+            height="30"
           />
+          <p class="is-size-6">GIFS & STICKERS</p>
         </router-link>
         <div
           class="navbar-burger"
