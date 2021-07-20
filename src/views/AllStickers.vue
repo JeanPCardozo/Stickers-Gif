@@ -18,6 +18,7 @@
             :class="load ? 'is-loading' : ''"
             @click="stickerFiltered"
           >
+            <span style="margin-right:5px"><i class="fas fa-search"></i></span>
             Buscar
           </button>
         </div>

@@ -41,6 +41,8 @@
         class="button is-dark"
         target="_blank"
         rel="noopener noreferrer"
+        ><span style="margin-right:5px" class="icon is-small">
+          <i class="fab fa-github"></i> </span
         >GitHub</a
       >
     </div>

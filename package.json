@@ -18,24 +18,27 @@
         "appleTouchIcon": "public/img/icons/apple-touch-icon-152x152.png",
         "msTileImage": "public/img/icons/msapplication-icon-144x144.png"
       }
-    },
-    "dependencies": {
-      "axios": "^0.21.1",
-      "bulma": "^0.9.3",
-      "core-js": "^3.6.5",
-      "register-service-worker": "^1.7.1",
-      "vue": "^3.0.0",
-      "vue-axios": "^3.2.4",
-      "vue-router": "^4.0.0-0",
-      "vuex": "^4.0.0-0"
-    },
-    "devDependencies": {
-      "@vue/cli-plugin-babel": "~4.5.0",
-      "@vue/cli-plugin-pwa": "~4.5.0",
-      "@vue/cli-plugin-router": "~4.5.0",
-      "@vue/cli-plugin-vuex": "~4.5.0",
-      "@vue/cli-service": "~4.5.0",
-      "@vue/compiler-sfc": "^3.0.0"
     }
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "axios": "^0.21.1",
+    "bulma": "^0.9.3",
+    "core-js": "^3.6.5",
+    "fontawesome-vue": "0.0.1",
+    "register-service-worker": "^1.7.1",
+    "vue": "^3.0.0",
+    "vue-axios": "^3.2.4",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
   }
 }
