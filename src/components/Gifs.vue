@@ -32,8 +32,26 @@
         </div>
       </div>
       <footer class="card-footer">
-        <button href="#" class="button is-info card-footer-item">
-          Descargar
+        <div class="modal" :class="notification ? 'is-active' : ''">
+          <div class="modal-background"></div>
+          <div class="modal-content">
+            <article class="message is-success">
+              <div class="message-header">
+                <p>Éxitoso!</p>
+                <button
+                  class="delete"
+                  aria-label="delete"
+                  @click="notification = false"
+                ></button>
+              </div>
+              <div class="message-body">
+                <p class="is-size-5 has-text-centered ">Link Copiado!</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <button href="#" class="button is-info card-footer-item" @click="copy">
+          Copiar link
         </button>
       </footer>
     </div>
@@ -42,12 +60,21 @@
 
 <script>
 export default {
+  data: () => ({ notification: false }),
   props: {
     src: String,
     title: String,
     user: {
       type: Object,
       default: {},
+    },
+  },
+  methods: {
+    copy() {
+      try {
+        navigator.clipboard.writeText(this.src);
+        this.notification = true;
+      } catch (error) {}
     },
   },
 };
